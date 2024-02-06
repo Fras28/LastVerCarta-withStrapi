@@ -39,18 +39,18 @@ export const Cafeteria = (id) => {
     return () => clearInterval(intervalId);
   }, [dispatch]);
 
-const CafeteriaProducts = allProduct?.filter((e) => e.attributes?.categorias?.data[0]?.id === 2);
+const CafeteriaProducts = allProduct?.filter((e) => e.attributes?.categorias?.data[0]?.id === 1);
 
 
 
 console.log(CafeteriaProducts, " articulos de cafeteria y postres");
 
 
-  const Cafex = CafeteriaProducts?.filter((e) => e.attributes?.sub_categoria?.data?.id === 2);
-  const Desayuno =CafeteriaProducts?.filter((e) => e.attributes?.sub_categoria?.data?.id === 3);
-  const DELICATESSEN = CafeteriaProducts?.filter((e) => e.attributes?.sub_categoria?.data?.id === 4);
+  const Cafex = CafeteriaProducts?.filter((e) => e.attributes?.sub_categoria?.data?.id === 1);
+  const Desayuno =CafeteriaProducts?.filter((e) => e.attributes?.sub_categoria?.data?.id === 2);
+  const DELICATESSEN = CafeteriaProducts?.filter((e) => e.attributes?.sub_categoria?.data?.id === 3);
   console.log(DELICATESSEN, " delicatesens");
-  const POSTRES = allProduct?.filter((e) => e.section === "POSTRES");
+  const POSTRES = CafeteriaProducts?.filter((e) => e.attributes?.sub_categoria?.data?.id === 4);
 
   return (
     <div className="containerL">
@@ -69,8 +69,8 @@ console.log(CafeteriaProducts, " articulos de cafeteria y postres");
          <Cards products={Desayuno} />
           <img src="https://i.pinimg.com/originals/b5/57/59/b5575945f530d0f9b7d4ee4d470b63c6.jpg" alt="promo" id="3" />
           <Cards products={DELICATESSEN} />
-          {/* <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-TipnrNFLzeSVvyG2DcXvmn6PhuPB-jK4-g&usqp=CAU" alt="promo" id="4" />
-          <Cards products={POSTRES} />   */}
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-TipnrNFLzeSVvyG2DcXvmn6PhuPB-jK4-g&usqp=CAU" alt="promo" id="4" />
+          <Cards products={POSTRES} />  
         </div>
       </div>
       <VerPedido id={mesa} />
