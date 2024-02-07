@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.657e1f13.css",
+    "main.js": "/static/js/main.1912812c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/menu-newyear.jpg": "/static/media/menu-newyear.af9ecb03da321f076ccb.jpg",
+    "static/media/menu-ninos.jpg": "/static/media/menu-ninos.0f419d1a7de9a45052a6.jpg",
+    "static/media/cafPast.jpg": "/static/media/cafPast.e375d1260a8c839d557e.jpg",
+    "static/media/event.webp": "/static/media/event.f2dafdd06b2ad21c0de0.webp",
+    "static/media/bebidas.webp": "/static/media/bebidas.8892dcc64597f4e882c4.webp",
+    "static/media/papsi.jpg": "/static/media/papsi.e158406393bfc3262872.jpg",
+    "static/media/TrackClub.webp": "/static/media/TrackClub.10060730876ec56456f1.webp",
+    "static/media/comida2.webp": "/static/media/comida2.a2718c120b33920b7b8b.webp",
+    "static/media/comidas.webp": "/static/media/comidas.36fadeb4096755535d83.webp",
+    "static/media/cafpast.webp": "/static/media/cafpast.d00453af3d0b9cab03b0.webp",
+    "static/media/comida1.webp": "/static/media/comida1.c2ba6dbe59775ed40e88.webp",
+    "static/media/backMorton.jpg": "/static/media/backMorton.d65ae8d31154251bf400.jpg",
+    "static/media/NYEShanti.webp": "/static/media/NYEShanti.e620c955b18aae9ca91d.webp",
+    "index.html": "/index.html",
+    "main.657e1f13.css.map": "/static/css/main.657e1f13.css.map",
+    "main.1912812c.js.map": "/static/js/main.1912812c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.657e1f13.css",
+    "static/js/main.1912812c.js"
+  ]
+}
