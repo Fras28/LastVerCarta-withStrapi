@@ -77,21 +77,21 @@ console.log(categorias, "categorias");
           >
             <div className="titInicio">
               <img src={cafPast} alt="fotito" />
-              <p>{categorias[2]?.attributes?.name}</p>
+              <p>{categorias[0]?.attributes?.name}</p>
             </div>
           </NavLink>
           <NavLink className="navLink" to={`${url.location.pathname}/Comidas`}>
             <div className="titInicio">
               <img src={comidas} alt=""/>
-              <p>{categorias[0]?.attributes?.name}</p>
+              <p>{categorias[1]?.attributes?.name}</p>
             </div>
           </NavLink>
-          {/* <NavLink className="navLink" to={`${url.location.pathname}/Bebidas`}> */}
+          <NavLink className="navLink" to={`${url.location.pathname}/Bebidas`}>
           <div className="titInicio">
             <img src={bebidas}  alt=""/>
-            <p>{categorias[1]?.attributes?.name}</p>
+            <p>BEBIDAS</p>
           </div>
-          {/* </NavLink> */}
+          </NavLink>
           <NavLink to={`${url.location.pathname}/SpecialEvent`}>
           <div className="titInicio especial">
             <img src={NYEShanti} alt="" />
@@ -106,7 +106,6 @@ console.log(categorias, "categorias");
             <p>TRACK CLUB</p>
           </div>
         </div>
-        
         </NavLink>
       </div>
       <div className="navi2">
