@@ -106,6 +106,7 @@ console.log(categorias, "categorias");
             <p>TRACK CLUB</p>
           </div>
         </div>
+        
         </NavLink>
       </div>
       <div className="navi2">
